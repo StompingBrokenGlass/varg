@@ -13,6 +13,9 @@
         "php": ">=5.4",
         "zendframework/zendframework": "2.1.0",
     	"zf-commons/zfc-twig": "1.0.3",
- 	"guzzle/guzzle": "3.1"
+ 	"guzzle/guzzle": "3.1",
+	"doctrine/doctrine-module": "0.*",
+	"doctrine/doctrine-orm-module": "0.*"
+
     }
 }

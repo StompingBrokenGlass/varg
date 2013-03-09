@@ -21,7 +21,7 @@ git clone git://github.com/kwamaking/varg.git
 cd varg
 php composer.phar self-update
 php composer.phar install
-
+```
 #Virtual Host
 Afterwards, set up a virtual host to point to the public/ directory of the
 project and you should be ready to go!

@@ -15,7 +15,7 @@ The recommended way to get a working copy of this project is to clone the reposi
 
 Alternately, clone the repository and manually invoke `composer` using the shipped
 `composer.phar`:
-```shell
+```bash
 cd my/project/dir
 git clone git://github.com/kwamaking/varg.git
 cd varg

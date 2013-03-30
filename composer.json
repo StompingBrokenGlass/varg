@@ -8,7 +8,8 @@
     ],
     "require-dev": {
 	"zendframework/zftool": "dev-master",
-	 "phpunit/phpunit": "3.7.*"
+	"phake/phake": "dev-master",
+	"phpunit/phpunit": "3.7.*"
     },
     "require": {
         "php": ">=5.4",

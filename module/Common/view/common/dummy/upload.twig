@@ -1,0 +1,16 @@
+{% extends 'layout/layout.twig' %}
+{% block title %}File Uploading{% endblock %}
+
+{% block content %}
+{% do form.prepare() %}
+{{ form().openTag(form) | raw }}
+
+<div class="form-element">
+	{{formCollection(form) | raw }}
+</div>
+
+<button>Submit</button>
+
+{{ form().closeTag(form) | raw }}
+
+{% endblock %}

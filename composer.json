@@ -24,7 +24,9 @@
     "autoload": {
         "psr-0" : {
             "Application": "module/Application/src",
-            "Common"     : ["module/Common/src","module/Common/test"]
+            "Common"     : ["module/Common/src","module/Common/test"],
+	    "Irc"	 : ["module/Irc/src","module/Irc/test"],
+	    "LastFm"     : ["module/LastFm/src","module/LastFm/test"]
         }
     }
 }
